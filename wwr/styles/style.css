@@ -18,13 +18,13 @@ body{
     padding: 0;
 }
 header{
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 nav a{
     text-align: center;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent2-color);
     padding: 35px;
 }
 nav a:hover{
