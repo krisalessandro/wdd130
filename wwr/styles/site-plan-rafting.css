@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Outfit&display=swap');
+
+:root{
+    --primary-color: #FB8500;
+    --secondary-color: #FFB703;
+    --accent1-color: #023047;
+    --accent2-color: #8ECAE6;
+
+    --heading-font: 'M PLUS Rounded 1cM PLUS Rounded 1c';
+    --paragraph-font: 'Outfit';
+
+    --nav-background-color: #023047;
+    --nav-link-color: #FFB703;
+    --nav-hover-link-color: #8ECAE6;
+    --nav-hover-background-color: #219EBC;
+
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
