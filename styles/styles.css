@@ -8,6 +8,12 @@ box-sizing: border-box;
 main {
     max-width: 840px;
 }
+nav a {
+    color: #28464B;
+    padding: 10px;
+    display:block;
+    background-color: #42D9C8;
+}
 aside {
 width: 20em;
 margin: 1em;
