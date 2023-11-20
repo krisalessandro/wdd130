@@ -42,24 +42,48 @@ nav {
 a{
     color: white;
 }
-article img{
-    /* float: right; */
-    /* margin: 0 0 10px 1px; */
-}
+/* article img{
+    float: right;
+    margin: 0 0 10px 1px;
+} */
 .sociallinnks{
     color: white;
     text-decoration: none;
 }
-/* .hero div {
+.hero{
     position: relative;
 
-} */
-/* .hero img {
+}
+.hero img {
     display: block;
     width: 100%;
     height: auto;
-} */
-/* .hero h1, article {
+}
+.hero h1 {
     position: absolute;
+}
+.hero article{
+    position: absolute;
+    box-shadow: 0 0 30px #FB8500;
+    opacity: 0.8;
+}
+.hero article img {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 250px;
+
+    
+}
+
+
+/* .sect1 img {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    
+} */
+/* .artic h1 {
+    position: relative;
 } */
 
