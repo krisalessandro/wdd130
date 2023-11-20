@@ -41,6 +41,8 @@ nav {
 }
 a{
     color: white;
+    text-decoration: none;
+
 }
 /* article img{
     float: right;
@@ -59,31 +61,29 @@ a{
     width: 100%;
     height: auto;
 }
-.hero h1 {
+.hero h1{
     position: absolute;
-}
-.hero article{
-    position: absolute;
-    box-shadow: 0 0 30px #FB8500;
-    opacity: 0.8;
-}
-.hero article img {
-    float: right;
-    margin: 0 0 10px 10px;
-    width: 250px;
-
-    
-}
-
-
-/* .sect1 img {
-    position: absolute;
-    display: inline-block;
+    top: 5%;
+    text-align: center;
+    /* left: 35%; */
+    background-color: #023047;
+    margin: 10px 50px 50px 0;
     width: 100%;
-    height: auto;
-    
-} */
-/* .artic h1 {
-    position: relative;
-} */
+    height: 50px;
 
+}
+.hero article {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    background-color: #FB8500;
+    text-align: justify;
+}
+
+.hero article img {
+
+    margin: 25px 20px 10px 15px;
+    float: right;
+    width: 300px;
+}
