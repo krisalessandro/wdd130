@@ -39,8 +39,6 @@ header img {
 }
 header nav {
     display: flex;
-    /* align-items: right; */
-    /* background-color: #FB8500; */
     margin: 1em;
     padding-right: 0cm; 
 }
@@ -117,13 +115,11 @@ footer nav {
     color: white;
     text-decoration: none;
     background-color: transparent;
-    align-items: right;
     text-align: center;
 }
 
 .hero{
     position: relative;
-
 }
 .hero img {
     display: block;
