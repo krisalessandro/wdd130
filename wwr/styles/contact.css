@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Outfit&display=swap');
+
+
+:root{
+    --primary-color: #FB8500;
+    --secondary-color: #FFB703;
+    --accent1-color: #023047;
+    --accent2-color: #8ECAE6;
+
+    --heading-font: 'M PLUS Rounded 1c', sans-serif;
+    --paragraph-font: 'Outfit', sans-serif;
+
+    --nav-background-color: #023047;
+    --nav-link-color: #FFB703;
+    --nav-hover-link-color: #8ECAE6;
+    --nav-hover-background-color: #219EBC;
+
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Header styling stars here  */
+
+header {
+    display: flex;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    
+}
+header img {
+    display: flex;
+    margin: 10px 20px 10px 10%;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    border-top-right-radius: 0% 0%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+}
+
+header nav {
+    display: flex;
+    margin: 1em;
+    padding-right: 0cm; 
+}
+header nav a{
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border: 2px ridge #000000;
+    background-color: #FB8500;
+}
+/* Here ends the header style  */
+
+/* Here starts the main styling */
+
+/* contact head rspncv */
+
+.uphead {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+p {
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    flex-grow: 1;
+}
+
+.line {
+    /* height: 80%; */
+    border-bottom: 1px solid #000;
+    margin: 30px 20px 0 5px;
+    width: 75%;
+    padding-left: 0px;
+}
+
+iframe {
+    margin-top: 40px;
+    height: 80%;
+    grid-column: 2;
+}
+
+form {
+    margin: 0 10px;
+    padding: 0.5rem;
+    border-left: 1px solid #000;
+    display: grid;
+ }
+
+ .form-item {
+    display: grid;
+    align-items: center;
+}
+
+ label, input, button, select, textarea {
+    font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+}
+input, select, textarea {
+    padding:  0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+section {
+    padding: 30px;
+}
+
+/* Here ends the main styling */
+
+/* Here starts the footer styling */
+footer a{
+    padding: 5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    background-color: var(--accent1-color);
+    color: white;
+}
+footer p{
+    text-align: right;
+    margin-right: 50px;
+}
+footer nav {
+    align-items: center;
+    padding-top: 0;
+}
+
+
