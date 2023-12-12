@@ -17,55 +17,8 @@
 
 }
 
-body{
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-    margin: 0;
-    padding: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 /* Header styling stars here  */
 
-header {
-    display: flex;
-    padding: 20px;
-    background-color: var(--accent1-color);
-    
-}
-header img {
-    display: flex;
-    margin: 10px 20px 10px 10%;
-}
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    border-top-right-radius: 0% 0%;
-    padding-left: 20px;
-    padding-top: 50px;
-}
-
-a{
-    color: white;
-    text-decoration: none; 
-}
-
-header nav {
-    display: flex;
-    margin: 1em;
-    padding-right: 0cm; 
-}
-header nav a{
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    border: 2px ridge #000000;
-    background-color: #FB8500;
-}
 /* Here ends the header style  */
 
 /* Here starts the main styling */
@@ -83,7 +36,7 @@ header nav a{
     grid-template-columns: 2fr 3fr;
 }
 
-p {
+address p {
     padding: 10px;
     padding-right: 0;
     margin-right: 0;

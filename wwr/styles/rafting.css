@@ -48,7 +48,10 @@ header nav a{
     border: 2px ridge #000000;
     background-color: #FB8500;
 }
-p {
+
+/* termina el header  */
+
+article p, .history p {
     padding: 25px;
 }
 nav {
@@ -151,4 +154,75 @@ footer nav {
     margin: 25px 20px 10px 15px;
     float: right;
     width: 300px;
+}
+
+/* css de contact html  */
+.uphead {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+address p {
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    flex-grow: 1;
+}
+
+.line {
+    border-bottom: 1px solid #000;
+    margin: 30px 20px 0 5px;
+    width: 75%;
+    padding-left: 0px;
+}
+
+iframe {
+    margin-top: 40px;
+    height: 80%;
+    grid-column: 2;
+}
+
+form {
+    margin: 0 10px;
+    padding: 0.5rem;
+    border-left: 1px solid #000;
+    display: grid;
+ }
+
+ .form-item {
+    display: grid;
+    align-items: center;
+}
+
+label, input, button, select, textarea {
+    font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+}
+
+input, select, textarea {
+    padding:  0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.contact-info {
+    padding: 30px;
 }
