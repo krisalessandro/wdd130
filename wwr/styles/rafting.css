@@ -226,3 +226,115 @@ button:hover {
 .contact-info {
     padding: 30px;
 }
+
+/* ------------------------ trips css ---------------------------------- */
+
+.book {
+    
+    
+    margin-top: 0;
+  }
+
+  .back-image img{
+    position: relative;
+    z-index: -1;
+  }
+.book-msg {
+    position: absolute;
+    text-align: center;
+}
+
+.book-msg .h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+.book-msg h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.book-msg #button {
+    margin: 0 430px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+#button:hover {
+    background-color: darkgreen;
+}
+
+.best-deals {
+    /* border: 5px solid var(--nav-link-color); */
+    margin: 10px;
+    text-align: center;
+    
+}
+.trip {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.trip figure {
+    grid-column: 1;
+}
+
+.descrip {
+    text-align: justify;
+    margin: 10px;
+}
+
+.trip2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.trip2 figure {
+    grid-column: 2;
+}
+
+.trip2 .descrip {
+    grid-row: 1;
+}
+
+
+.ava-trips{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border: 5px solid var(--accent1-color);
+}
+
+.trips-table {
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+
+
+
+  
